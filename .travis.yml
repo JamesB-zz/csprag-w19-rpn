@@ -1,4 +1,8 @@
 language: python
 python:
   - "3.5"
-script: python3 -m unittest
+install: pip install coverage
+script:
+  - coverage --version
+  - coverage run -m unittest
+  - coverage report

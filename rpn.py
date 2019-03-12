@@ -11,6 +11,8 @@ operators = {
     '/': operator.truediv,
     '^': operator.pow,
 }
+def printSumn(arg):
+    print(arg)
 
 def calculate(myarg):
     stack = list()
